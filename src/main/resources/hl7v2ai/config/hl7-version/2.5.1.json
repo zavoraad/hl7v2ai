@@ -1,0 +1,7 @@
+{
+  "version": "2.5.1",
+  "description": "Dummy HL7 v2.5.1 baseline reference for codegen and validation.",
+  "defaultEncodingCharacters": "^~\\&",
+  "commonSegments": ["MSH", "PID", "PV1", "OBX", "NK1", "AL1"],
+  "notes": "Replace with your organization's HL7 version profile."
+}

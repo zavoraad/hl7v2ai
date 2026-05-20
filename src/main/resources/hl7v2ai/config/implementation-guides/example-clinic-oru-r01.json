@@ -1,0 +1,16 @@
+{
+  "guideId": "example-clinic-oru-r01",
+  "name": "Example Clinic ORU^R01 (dummy)",
+  "messageType": "ORU",
+  "triggerEvent": "R01",
+  "hl7Version": "2.5.1",
+  "ehrId": "example-clinic",
+  "requiredSegments": ["MSH", "PID", "OBR", "OBX"],
+  "segments": {
+    "OBX": {
+      "requiredFields": [3, 5],
+      "notes": "Observation value; may repeat"
+    }
+  },
+  "notes": "Dummy ORU profile for lab/result messages."
+}

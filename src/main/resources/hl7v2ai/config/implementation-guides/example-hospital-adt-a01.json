@@ -1,0 +1,20 @@
+{
+  "guideId": "example-hospital-adt-a01",
+  "name": "Example Hospital ADT^A01 (dummy)",
+  "messageType": "ADT",
+  "triggerEvent": "A01",
+  "hl7Version": "2.5.1",
+  "ehrId": "example-hospital",
+  "requiredSegments": ["MSH", "EVN", "PID", "PV1"],
+  "segments": {
+    "PID": {
+      "requiredFields": [3, 5, 7, 8],
+      "notes": "PID-3 patient identifier list; PID-5 patient name"
+    },
+    "PV1": {
+      "requiredFields": [2, 3, 7],
+      "notes": "Patient visit — dummy cardinality"
+    }
+  },
+  "notes": "Replace with your interface engine / IG export (HL7 table or FHIR StructureDefinition mapping)."
+}

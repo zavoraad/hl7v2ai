@@ -1,0 +1,8 @@
+{
+  "ehrId": "example-clinic",
+  "name": "Example Clinic (dummy)",
+  "defaultHl7Version": "2.5.1",
+  "defaultImplementationGuide": "example-clinic-oru-r01",
+  "sendingApplication": "CERNER",
+  "notes": "Second dummy tenant for multi-site testing."
+}

@@ -1,0 +1,2 @@
+example-hospital-adt-a01
+example-clinic-oru-r01

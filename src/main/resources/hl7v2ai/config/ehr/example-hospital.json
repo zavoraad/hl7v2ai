@@ -1,0 +1,8 @@
+{
+  "ehrId": "example-hospital",
+  "name": "Example Hospital (dummy)",
+  "defaultHl7Version": "2.5.1",
+  "defaultImplementationGuide": "example-hospital-adt-a01",
+  "sendingApplication": "EPIC",
+  "notes": "Site-specific EHR settings. Wire to real vendor profile in production."
+}

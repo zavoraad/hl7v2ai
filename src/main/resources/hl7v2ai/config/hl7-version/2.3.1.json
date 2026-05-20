@@ -1,0 +1,7 @@
+{
+  "version": "2.3.1",
+  "description": "Dummy HL7 v2.3.1 baseline reference (legacy).",
+  "defaultEncodingCharacters": "^~\\&",
+  "commonSegments": ["MSH", "PID", "PV1", "OBX"],
+  "notes": "Replace with your organization's HL7 version profile."
+}
