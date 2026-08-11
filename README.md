@@ -219,7 +219,3 @@ Roadmap items to move from parsing library toward LLM-assisted Spark development
 - No repeating-field / `~` repetition handling yet
 - `hl7Version` depends on parsed MSH field layout (MSH-12 at index 10 after parse)
 - Not a conformance validator against an IG — structural parse and navigation only
-
-## License
-
-Internal / TBD — confirm before external distribution.
